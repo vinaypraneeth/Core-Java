@@ -1,0 +1,67 @@
+Bitwise :-
+-----------
+		-> The Operators which operates on Bits(0 or 1) is know as bitwise operator.
+		->There are 5 operators.
+			-> Bitwise AND -->" &".
+			-> Bitwise OR --> "|"
+			-> Bitwise XOR --> "^"
+			-> Left Shift --> "<<"
+			-> Right Shift --> ">>"
+		Steps to perfom Bitwise Operations.
+		-------------------------------------------------------
+		1.Convert decinal value to binary value.
+		2.Perfom operation of converted binary value using Bitwise Operator .
+		3.Convert result binary value to decinal value.
+
+ Shift Operators :-
+-------------------------
+	There are two Shift operators.
+	-> Left Shift --> "<<"     ------> The left shift operator moves all bits by a given number of bits to the left.
+	-> Right Shift --> ">>"    ------>  The right shift operator moves all bits by a given number of bits to the right.
+
+
+
+
+
+		Bitwise OR --> "|"
+		---------------------------			
+Example:-				
+---------------
+	a = 5 = 0101 (In Binary)
+	b = 7 = 0111 (In Binary)
+
+	Bitwise OR Operation of 5 and 7
+	  0101
+	| 0111
+ 	----------------
+	  0111  = 7 (In decimal) 
+	----------------------
+
+
+
+		Bitwise AND --> "&"
+		---------------------------			
+Example:-				
+---------------
+a = 5 = 0101 (In Binary)
+b = 7 = 0111 (In Binary)
+
+Bitwise AND Operation of 5 and 7
+  0101
+& 0111
+ ________
+  0101  = 5 (In decimal) 
+
+
+	Bitwise XOR --> "^"
+		---------------------------			
+Example:-				
+---------------
+a = 5 = 0101 (In Binary)
+b = 7 = 0111 (In Binary)
+
+Bitwise XOR Operation of 5 and 7
+  0101
+^ 0111
+ ________
+  0010  = 2 (In decimal) 
